@@ -35,7 +35,7 @@ http://localhost:5173/
 
 ## Stack utilizada
 
-**Front-end:** Html5, Css3, ReactJS, Vite
+**Front-end:** Html5, Css3, React, TypeScript, Vite
 
 ## Feedback
 
