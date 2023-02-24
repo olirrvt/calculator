@@ -13,7 +13,7 @@ Clone o projeto
 Entre no diretório do projeto
 
 ```bash
-  cd ecommerce
+  cd calculator
 ```
 
 Instale as dependências
