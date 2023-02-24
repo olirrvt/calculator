@@ -1,0 +1,17 @@
+.container-horas {
+    position: absolute;
+    top: 0;
+}
+
+.container-data {
+    position: absolute;
+    top: 2em;
+}
+
+.container-horas h2, 
+.container-data h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 15pt;
+    color: #fff;
+}

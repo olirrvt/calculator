@@ -18,8 +18,8 @@ input[type="text"] {
   margin-bottom: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #3a3535;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 button {
@@ -30,8 +30,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #3a3535;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 button.operator {
@@ -55,7 +55,7 @@ button.clear {
   margin-top: 10px;
   padding: 1em;
   border-radius: 5px;
-  background-color: #3a3535;
+  background-color: #fff;
   color: #009900;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
@@ -67,7 +67,7 @@ button.clear {
   margin-top: 10px;
   padding: 1em;
   border-radius: 5px;
-  background-color: #3a3535;
+  background-color: #fff;
   color: #990000;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
