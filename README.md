@@ -7,13 +7,13 @@
 Clone o projeto
 
 ```bash
-  git clone https://github.com/olirrvt/ecommerce.git
+  git clone https://github.com/olirrvt/calculator.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd ecommerce
+  cd calculator
 ```
 
 Instale as dependências
