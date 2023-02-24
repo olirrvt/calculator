@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import "./styles/darkMode.css";
 import darkTheme from "./assets/themeDark.png";
 import whiteTheme from "./assets/themeWhite.png";
 
@@ -31,9 +30,9 @@ const Calculator = () => {
       <div className="container-calculator">
         <div className="container-btn-theme">
           {dark ? (
-            <img className="btn-white" src={whiteTheme} alt="btn-dark" width="50px" height="50px" onClick={handleTheme => {setDark(false)}} />
+            <img className="btn-white" src={whiteTheme} alt="btn-dark" width="40px" height="40px" onClick={handleTheme => {setDark(false)}} />
           ) : (
-            <img src={darkTheme} alt="btn-dark" width="50px" height="50px" onClick={handleTheme => { setDark(true) }}/>
+            <img src={darkTheme} alt="btn-dark" width="40px" height="40px" onClick={handleTheme => { setDark(true) }}/>
           )}
         </div>
 
