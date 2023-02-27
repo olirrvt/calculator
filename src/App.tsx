@@ -1,13 +1,10 @@
 import { useState } from "react";
 import "./App.css";
-import darkTheme from "./assets/themeDark.png";
-import whiteTheme from "./assets/themeWhite.png";
 import Date from "../src/components/Date";
 
 
 const Calculator = () => {
 
-  const [dark, setDark] = useState(true);
   const [display, setDisplay] = useState("");
   const [result, setResult] = useState("");
 
@@ -33,17 +30,10 @@ const Calculator = () => {
         
         <Date />
 
-        {/* <div className="container-btn-theme">
-          {dark ? (
-            <img className="btn-white" src={whiteTheme} alt="btn-dark" width="40px" height="40px" onClick={handleTheme => {setDark(false)}} />
-          ) : (
-            <img src={darkTheme} alt="btn-dark" width="40px" height="40px" onClick={handleTheme => { setDark(true) }}/>
-          )}
-        </div> */}
-
         <div className="box-calculator">
           <input type="text" value={display} />
           <div className="btn-calculator">
+
             {/* Números */}
             <button onClick={() => handleButtonClick("1")}>1</button>
             <button onClick={() => handleButtonClick("2")}>2</button>
@@ -75,6 +65,7 @@ const Calculator = () => {
             <button className="equal" onClick={() => handleButtonClick("=")}>
               =
             </button>
+            
           </div>
           {result === "Error" ? (
             <p className="error">Essa operação não pode ser realizada.</p>
